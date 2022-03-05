@@ -1,9 +1,9 @@
 public class Palindrome {
 
-        public static boolean isPalindrome(int x) {
+        public static boolean isPalidrome(int x) {
             int a,b;
             int c=x;
-            int count = getLength(x);
+            int count = getLength(10001);
             boolean result = false;
 
             if(x==0){
